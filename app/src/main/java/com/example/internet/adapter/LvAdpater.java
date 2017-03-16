@@ -58,7 +58,6 @@ public class LvAdpater extends BaseAdapter{
         holder.nickname.setText(topicsBean.getUser().getNickname());
         Glide.with(context).load(topicsBean.getCover_image_url()).into(holder.img);
         return convertView;
-
     }
 
 
